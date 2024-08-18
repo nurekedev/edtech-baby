@@ -1,0 +1,13 @@
+services:
+  auth-edtech-backend:
+    container_name: auth-edtech-backend
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./bb_auth/:/app/bb_auth/
+      - static_volume:/app/static/
+      
+volumes:
+  static_volume:

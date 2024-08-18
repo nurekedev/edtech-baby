@@ -4,6 +4,7 @@
 __pycache__
 db.sqlite3
 venv/
+static/
 
 !.vscode/settings.json 
 !.vscode/tasks.json 
